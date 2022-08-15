@@ -1,96 +1,98 @@
     :root
 
-    .h1{
-        color: rgb(2, 162, 173);
-        font: Normal 20pt Times;
-        text-align: center; 
+    body {
+        background: linear-gradient(90deg, #000000, #6d6d6d, #000000);
+        background-size: 300% 300%;
+        animation: colors 15s ease infinite;
     }
+    @keyframes colors {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 50% 100%;
+        }
+        100% {
+            background-position: 100% 0%;
+        }
 
-    .body {
-        background-color: rgb(255, 255, 255);
-        color: #ffffff;
-        font: bold 15pt arial;
     }
 
     .em_cima{
             height: 5vh;
             width: 95%;
-            background-color: rgb(110, 108, 247);
+            background-color: #293b3b;
             margin:auto;
             display: flex;
-            gap: 1vh;
-            border:groove black 2px;
-            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+            /*border:groove black 1px;*/
+            border-radius: 20px;
             transition: 1s;
     }
     
         .historia{
             background-color: rgb(214, 214, 214);
-            height: 4vh;
+            color: #000000;
+            font:bold 15pt impact;
             width: 15%;
-            margin-left: 18%;
             margin-top: 1px;
             text-align: center;
-            color:rgb(37, 37, 37);
             border-radius: 10px;
-            border:groove black 1px;
             cursor: pointer;
         }
         
         .ideias{
             background-color: rgb(214, 214, 214);
-            height: 4vh;
-            width: 15vw;
-            text-align: center;
+            color: #000000;
+            font:bold 15pt impact;
+            width: 15%;
             margin-top: 1px;
-            color:rgb(37, 37, 37);
-            grid-column: 1/4;
+            text-align: center;
             border-radius: 10px;
-            border:groove black 1px;
-            cursor: grab;    
+            cursor: pointer;  
         }
 
-        .ambições{  
+        .ambições{
             background-color: rgb(214, 214, 214);
-            height: 4vh;
-            width: 15vw;            
+            color: #000000;
+            font:bold 15pt impact;
+            width: 15%;
+            margin-top: 1px;
             text-align: center;
-            margin-top: 1px;        
-            color:rgb(37, 37, 37);
-            grid-column: 1/4;            
             border-radius: 10px;
-            border:groove black 1px;      
-            cursor: grab;          
+            cursor: pointer;         
                 
         }
 
-        .imagens{  
+        .imagens{
             background-color: rgb(214, 214, 214);
-            height: 4vh;
-            width: 15vw;
-            margin-right: 15%;
-            text-align: center;
+            color: #000000;
+            font:bold 15pt impact;
+            width: 15%;
             margin-top: 1px;
-            color:rgb(37, 37, 37);
-            grid-column: 1/4;
+            text-align: center;
             border-radius: 10px;
-            border:groove black 1px;
-            cursor: grab;
+            cursor: pointer;
         }
     .entre_cima_e_meio{
                 height: 1ch;
                 width: 100;
         }
     .meio{
-        height: 70vh; 
+        height: 80vh; 
         width: 95%;
         background-color: rgb(235, 235, 235);
+        color: rgb(41, 41, 138);
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px groove #444444;
+        border: 1px groove #444444;
+        border-radius: 20px;
         gap: 3px;
+        font: bold 13pt Copperplate;
     }
 
 .entre_meio_e_cima{
@@ -99,26 +101,48 @@
         }
 
     .em_baixo{
-            height: 5vh;
-            width: 40%;
-            background-color: rgb(101, 240, 245);
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            gap: 5px;
-            border-radius: 10px;
-            transition: 1s;
+        height: 5vh;
+        width: 50%;
+        background-color: #2C3333;
+        margin:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        /*border:groove black 1px;*/
+        border-radius: 20px;
+        transition: 1s;
     }
 
     .whatsapp{
-        color:rgb(1, 104, 35);
+        color: #358b63;
+        height: 3vh;
+        text-align: center;
+        margin-top: 7px;
+        border-bottom: 1px ridge #00000050;
+        cursor: pointer;
     }
 
     .instagram{
-        color: rgb(241, 148, 8);
+        color: #358b63;
+        height: 3vh;
+        text-align: center;
+        margin-top: 7px;
+        border-bottom: 1px ridge #00000050;
+        cursor: pointer;
     } 
                             
-    .telegram{  
-        color: rgb(0, 46, 197);
+    .telegram{
+        color: #358b63;
+        height: 3vh;
+        text-align: center;
+        margin-top: 7px;
+        border-bottom: 1px ridge #00000050;
+        cursor: pointer;
     }
+
+    .fim{
+                    height: 4vh;
+                    width: 95%;
+            }
     
