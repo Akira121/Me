@@ -114,28 +114,19 @@
     }
 
     .whatsapp{
-        color: #791313;
-        height: 3vh;
-        text-align: center;
-        margin-top: 7px;
+        color: #0e0101;
         border-bottom: 1px ridge #00000050;
         cursor: pointer;
     }
 
     .instagram{
-        color: #791313;
-        height: 3vh;
-        text-align: center;
-        margin-top: 7px;
+        color: #0e0101;
         border-bottom: 1px ridge #00000050;
         cursor: pointer;
     } 
                             
     .telegram{
-        color: #791313;
-        height: 3vh;
-        text-align: center;
-        margin-top: 7px;
+        color: #0e0101;
         border-bottom: 1px ridge #00000050;
         cursor: pointer;
     }
