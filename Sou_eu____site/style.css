@@ -1,0 +1,124 @@
+    :root
+
+    .h1{
+        color: rgb(2, 162, 173);
+        font: Normal 20pt Times;
+        text-align: center; 
+    }
+
+    .body {
+        background-color: rgb(255, 255, 255);
+        color: #ffffff;
+        font: bold 15pt arial;
+    }
+
+    .em_cima{
+            height: 5vh;
+            width: 95%;
+            background-color: rgb(110, 108, 247);
+            margin:auto;
+            display: flex;
+            gap: 1vh;
+            border:groove black 2px;
+            border-radius: 10px;
+            transition: 1s;
+    }
+    
+        .historia{
+            background-color: rgb(214, 214, 214);
+            height: 4vh;
+            width: 15%;
+            margin-left: 18%;
+            margin-top: 1px;
+            text-align: center;
+            color:rgb(37, 37, 37);
+            border-radius: 10px;
+            border:groove black 1px;
+            cursor: pointer;
+        }
+        
+        .ideias{
+            background-color: rgb(214, 214, 214);
+            height: 4vh;
+            width: 15vw;
+            text-align: center;
+            margin-top: 1px;
+            color:rgb(37, 37, 37);
+            grid-column: 1/4;
+            border-radius: 10px;
+            border:groove black 1px;
+            cursor: grab;    
+        }
+
+        .ambições{  
+            background-color: rgb(214, 214, 214);
+            height: 4vh;
+            width: 15vw;            
+            text-align: center;
+            margin-top: 1px;        
+            color:rgb(37, 37, 37);
+            grid-column: 1/4;            
+            border-radius: 10px;
+            border:groove black 1px;      
+            cursor: grab;          
+                
+        }
+
+        .imagens{  
+            background-color: rgb(214, 214, 214);
+            height: 4vh;
+            width: 15vw;
+            margin-right: 15%;
+            text-align: center;
+            margin-top: 1px;
+            color:rgb(37, 37, 37);
+            grid-column: 1/4;
+            border-radius: 10px;
+            border:groove black 1px;
+            cursor: grab;
+        }
+    .entre_cima_e_meio{
+                height: 1ch;
+                width: 100;
+        }
+    .meio{
+        height: 70vh; 
+        width: 95%;
+        background-color: rgb(235, 235, 235);
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px groove #444444;
+        gap: 3px;
+    }
+
+.entre_meio_e_cima{
+                height: 1ch;
+                width: 100;
+        }
+
+    .em_baixo{
+            height: 5vh;
+            width: 40%;
+            background-color: rgb(101, 240, 245);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            border-radius: 10px;
+            transition: 1s;
+    }
+
+    .whatsapp{
+        color:rgb(1, 104, 35);
+    }
+
+    .instagram{
+        color: rgb(241, 148, 8);
+    } 
+                            
+    .telegram{  
+        color: rgb(0, 46, 197);
+    }
+    
