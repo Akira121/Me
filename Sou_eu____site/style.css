@@ -21,21 +21,21 @@
     .em_cima{
             height: 5vh;
             width: 95%;
-            background-color: #293b3b;
+            background-color: #185252;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin:auto;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 5%;
-            /*border:groove black 1px;*/
             border-radius: 20px;
             transition: 1s;
     }
     
         .historia{
-            background-color: rgb(214, 214, 214);
-            color: #000000;
-            font:bold 15pt impact;
+            background-color: #919191;
+            color: #191b31;
+            font:bold 15pt arial;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -44,32 +44,31 @@
         }
         
         .ideias{
-            background-color: rgb(214, 214, 214);
-            color: #000000;
-            font:bold 15pt impact;
+            background-color: #919191;
+            color: #191b31;
+            font:bold 15pt arial;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
-            cursor: pointer;  
+            cursor: pointer;
         }
 
-        .ambições{
-            background-color: rgb(214, 214, 214);
-            color: #000000;
-            font:bold 15pt impact;
+        .AD{
+            background-color: #919191;
+            color: #191b31;
+            font:bold 15pt arial;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
-            cursor: pointer;         
-                
+            cursor: pointer;
         }
 
-        .imagens{
-            background-color: rgb(214, 214, 214);
-            color: #000000;
-            font:bold 15pt impact;
+        .outros{
+            background-color: #919191;
+            color: #191b31;
+            font:bold 15pt arial;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -83,8 +82,8 @@
     .meio{
         height: 80vh; 
         width: 95%;
-        background-color: rgb(235, 235, 235);
-        color: rgb(41, 41, 138);
+        background-color: rgb(204, 207, 248);
+        color: #23232c;
         margin: auto;
         display: flex;
         align-items: center;
@@ -94,7 +93,6 @@
         gap: 3px;
         font: bold 13pt Copperplate;
     }
-
 .entre_meio_e_cima{
                 height: 1ch;
                 width: 100;
@@ -103,19 +101,20 @@
     .em_baixo{
         height: 5vh;
         width: 50%;
-        background-color: #2C3333;
+        background-color: #356969;
         margin:auto;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 5%;
-        /*border:groove black 1px;*/
         border-radius: 20px;
         transition: 1s;
+        font-family:Impact, 'Arial Narrow Bold', sans-serif;
+
     }
 
     .whatsapp{
-        color: #358b63;
+        color: #791313;
         height: 3vh;
         text-align: center;
         margin-top: 7px;
@@ -124,7 +123,7 @@
     }
 
     .instagram{
-        color: #358b63;
+        color: #791313;
         height: 3vh;
         text-align: center;
         margin-top: 7px;
@@ -133,7 +132,7 @@
     } 
                             
     .telegram{
-        color: #358b63;
+        color: #791313;
         height: 3vh;
         text-align: center;
         margin-top: 7px;
