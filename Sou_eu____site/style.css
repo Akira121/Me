@@ -1,9 +1,8 @@
     :root
 
     body {
-        background: linear-gradient(90deg, #000000, #6d6d6d, #000000);
-        background-size: 300% 300%;
-        animation: colors 15s ease infinite;
+        background: linear-gradient(130deg, #040536, #1944a0, #7e20d6);
+        background-size: 100% 100%;
     }
     @keyframes colors {
         0% {
@@ -20,59 +19,68 @@
 
     .em_cima{
             height: 5vh;
-            width: 95%;
+            width: 50%;
             background-color: #185252;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin:auto;
+            margin-right: 45%;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 5%;
             border-radius: 20px;
             transition: 1s;
+            font: bold 13pt monospace;
     }
     
         .historia{
             background-color: #919191;
             color: #191b31;
-            font:bold 15pt arial;
+            box-shadow: #040536 10px;
+            font:bolder 10pt Times;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
+            border: none;
             cursor: pointer;
         }
         
-        .ideias{
+        .redes_sociais{
             background-color: #919191;
             color: #191b31;
-            font:bold 15pt arial;
+            box-shadow: #040536 10px;
+            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
+            border: none;
             cursor: pointer;
         }
 
         .AD{
             background-color: #919191;
             color: #191b31;
-            font:bold 15pt arial;
+            box-shadow: #040536 10px;
+            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
+            border: none;
             cursor: pointer;
         }
 
         .outros{
             background-color: #919191;
             color: #191b31;
-            font:bold 15pt arial;
+            box-shadow: #040536 10px;
+            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
             border-radius: 10px;
+            border: none;
             cursor: pointer;
         }
     .entre_cima_e_meio{
@@ -83,6 +91,7 @@
         height: 80vh; 
         width: 95%;
         background-color: rgb(204, 207, 248);
+        font: bold 13pt serif;
         color: #23232c;
         margin: auto;
         display: flex;
@@ -91,7 +100,6 @@
         border: 1px groove #444444;
         border-radius: 20px;
         gap: 3px;
-        font: bold 13pt Copperplate;
     }
 .entre_meio_e_cima{
                 height: 1ch;
@@ -100,9 +108,10 @@
 
     .em_baixo{
         height: 5vh;
-        width: 50%;
-        background-color: #356969;
+        width: 40%;
+        background-color: #185252;
         margin:auto;
+        margin-left: 56%;
         display: flex;
         align-items: center;
         justify-content: center;
