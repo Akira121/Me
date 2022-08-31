@@ -1,0 +1,104 @@
+
+    body{
+        background: linear-gradient(130deg, #040536, #1944a0, #7e20d6);
+        background-size: 100% 100%;
+        border-radius: 10px;
+    }
+    @keyframes colors {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 50% 100%;
+        }
+        100% {
+            background-position: 100% 0%;
+        }
+    }
+    div#cima{
+        height: 1vh;
+    }
+    h1#tabuada{
+        justify-content: center;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    
+    div#calculos{
+        
+        width: 50vw;
+        margin: auto;
+        background: linear-gradient(130deg, #040536, #1944a0, #040536);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px groove;
+        border-radius: 20px;
+        gap: 3px;
+
+    }
+    div#resultados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        margin-top: 1vw;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    div#resultado{
+        width: 20%;
+        height: 460px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px groove #444444;
+        border-radius: 20px;
+        gap: 3px;
+        text-align: center;
+
+    }
+    div#resultado2{
+        width: 20%;
+        height: 460px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px groove #444444;
+        border-radius: 20px;
+        gap: 3px;
+        text-align: center;
+
+    }
+    div#resultado3{
+        width: 20%;
+        height: 460px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px groove #444444;
+        border-radius: 20px;
+        gap: 3px;
+        text-align: center;
+
+    }
+    div#resultado4{
+        width: 20%;
+        height: 460px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px groove #444444;
+        border-radius: 20px;
+        gap: 3px;
+        text-align: center;
+
+    }
+    div#baixo{
+        height: 5%;
+    }

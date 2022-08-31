@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What I am?</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-    </style>
 </head>
 <body id="corpo">
-    <script></script>
+    <script>
+        
+        function clicar() {
+            var clickH = window.document.getElementById(historia)
+            meio.innerText = minhaHistoria
+        }
+        var minhaHistoria = "Hi, I'm a beginner programmer"
+
+        function clicar() {
+            var clickH = window.document.getElementById(redes)
+            meio.innerText = minhasredes
+        }
+        var minhasredes = 
+    </script>
     
     <div class="em_cima">
             
-            <div class="historia">History</div>
-            <div class="ideias">.</div>
-            <div class="AD">AD</div>
-            <div class="outros">others</div>
+            <button id="historia" onclick="clicar()">History</button>
+            <button id="redes">networks</button>
+            <button id="AD">AD</button>
+            <button id="outros">others</button>
             <!--adicionar butão href="#" role="button" -->
         </div>
         
@@ -26,7 +36,7 @@
 
         </div>
 
-    <div class="meio">
+    <div id="meio">
         <h1>
             Hello, There! I'm Andy !
         </h1>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCitin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <script>
+        function calcular() {
+        let valor = document.querySelector("input#valor"); // Pega valor digitado no input
+        let res = document.querySelector("div#resultado"); // Pega div (onde deve inserir resultado)
+        let vfinal = valor.value; // Pega o valor pra poder fazer a operação matemática
+        res.innerHTML = "SOMANDO: <br/>";
+        for (let y = 1; y <= 10; y++) {
+          
+          
+          let multiplicacao = parseFloat(vfinal) + parseFloat(y); //document.write( y + ' x ' +valor.value+ ' = ' + (y * valor.value) + '<br>')
+      
+          res.innerHTML += `${vfinal} + ${y} = ${multiplicacao.toFixed(2)} <br/>`; //
+        }
+        let valor2 = document.querySelector("input#valor"); // Pega valor digitado no input
+        let res2 = document.querySelector("div#resultado2"); // Pega div (onde deve inserir resultado)
+        let vfinal2 = valor2.value; // Pega o valor pra poder fazer a operação matemática
+        res2.innerHTML = "SUBTRAINDO: <br/>";
+        for (let y2 = 1; y2 <= 10; y2++) {
+          let multiplicacao2 = vfinal2 - y2; //document.write( y + ' x ' +valor.value+ ' = ' + (y * valor.value) + '<br>')
+      
+          res2.innerHTML += `${vfinal2} - ${y2} = ${multiplicacao2.toFixed(2)} <br/>`; //
+        }
+        let valor3 = document.querySelector("input#valor"); // Pega valor digitado no input
+        let res3 = document.querySelector("div#resultado3"); // Pega div (onde deve inserir resultado)
+        let vfinal3 = valor3.value; // Pega o valor pra poder fazer a operação matemática
+        res3.innerHTML = "MULTIPLICANDO: <br/>";
+        for (let y3 = 1; y3 <= 10; y3++) {
+          let multiplicacao3 = vfinal3 * y3; //document.write( y + ' x ' +valor.value+ ' = ' + (y * valor.value) + '<br>')
+      
+          res3.innerHTML += `${vfinal3} x ${y3} = ${multiplicacao3.toFixed(2)} <br/>`; //
+        }
+        let valor4 = document.querySelector("input#valor"); // Pega valor digitado no input
+        let res4 = document.querySelector("div#resultado4"); // Pega div (onde deve inserir resultado)
+        let vfinal4 = valor4.value; // Pega o valor pra poder fazer a operação matemática
+        res4.innerHTML = "DIVIDINDO: <br/>"; //
+        for (let y4 = 1; y4 <= 10; y4++) {
+          let multiplicacao4 = vfinal4 / y4; //document.write( y + ' x ' +valor.value+ ' = ' + (y * valor.value) + '<br>')
+          
+          res4.innerHTML += `${vfinal4} / ${y4} = ${multiplicacao4.toFixed(2)} <br/>`; //mostra o resultado 
+        }
+        
+      }
+  </script>
+
+</head>
+<div id="cima"></div>
+
+<h1 id="tabuada">Tabuada</h1>
+
+<p>
+    <div id="calculos"><input type="number" id="valor">
+    <input type="button" value="Calcular" onclick="calcular()"></p></div>
+
+<div id="resultados">
+
+  <div id="resultado">
+    Resultado
+  </div>
+  <div id="resultado2">
+    Resultado
+  </div>
+  <div id="resultado3">
+    Resultado
+  </div>
+  <div id="resultado4">
+    Resultado
+  </div>
+
+</div>
+<div id="baixo"></div>
+
+<body>
+</body>
+
+</html>

@@ -19,24 +19,24 @@
 
     .em_cima{
             height: 5vh;
-            width: 50%;
+            width: 70%;
             background-color: #185252;
             margin:auto;
-            margin-right: 45%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            margin-right: 27%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
             gap: 5%;
             border-radius: 20px;
             transition: 1s;
-            font: bold 13pt monospace;
+            
     }
     
-        .historia{
-            background-color: #919191;
+        #historia{
+            background-color: #aaaaff;
             color: #191b31;
+            font-family:Impact, 'Arial Narrow Bold', sans-serif;
             box-shadow: #040536 10px;
-            font:bolder 10pt Times;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -45,11 +45,11 @@
             cursor: pointer;
         }
         
-        .redes_sociais{
-            background-color: #919191;
+        #redes{
+            background-color: #aaaaff;
             color: #191b31;
+            font-family:Impact, 'Arial Narrow Bold', sans-serif;
             box-shadow: #040536 10px;
-            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -58,11 +58,11 @@
             cursor: pointer;
         }
 
-        .AD{
-            background-color: #919191;
+        #AD{
+            background-color: #aaaaff;
             color: #191b31;
+            font-family:Impact, 'Arial Narrow Bold', sans-serif;
             box-shadow: #040536 10px;
-            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -71,11 +71,11 @@
             cursor: pointer;
         }
 
-        .outros{
-            background-color: #919191;
+        #outros{
+            background-color: #aaaaff;
             color: #191b31;
+            font-family:Impact, 'Arial Narrow Bold', sans-serif;
             box-shadow: #040536 10px;
-            font:bold 11pt serif;
             width: 15%;
             margin-top: 1px;
             text-align: center;
@@ -87,10 +87,10 @@
                 height: 1ch;
                 width: 100;
         }
-    .meio{
+    #meio{
         height: 80vh; 
         width: 95%;
-        background-color: rgb(204, 207, 248);
+        background-color:#99ffff;
         font: bold 13pt serif;
         color: #23232c;
         margin: auto;
@@ -100,6 +100,11 @@
         border: 1px groove #444444;
         border-radius: 20px;
         gap: 3px;
+    }
+    #minhahistoria{
+        font: bold 13pt serif;
+        color: #23232c;
+
     }
 .entre_meio_e_cima{
                 height: 1ch;
