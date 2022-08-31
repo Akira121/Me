@@ -10,26 +10,41 @@
 <body id="corpo">
     <script>
         
-        function clicar() {
-            var clickH = window.document.getElementById(historia)
+        function ClickHistory() {
+            var clickHy = window.document.getElementById(historia)
+            var minhaHistoria = "Hi, I'm a beginner programmer"
             meio.innerText = minhaHistoria
         }
-        var minhaHistoria = "Hi, I'm a beginner programmer"
-
-        function clicar() {
-            var clickH = window.document.getElementById(redes)
-            meio.innerText = minhasredes
+        
+        function ClickRede() {
+            var clickRd = window.document.getElementById(redes)
+            var minhasRedes = "Links em progresso";
+            meio.innerText = minhasRedes
         }
-        var minhasredes = 
+        
+        function ClickAD() {
+            var clickAD = window.document.getElementById(AD)
+            var meusAD = "AD em progresso";
+            meio.innerText = meusAD
+        }
+        
+        function ClickOthers() {
+            var clickOthers = window.document.getElementById(outros)
+            var osoutros = "Outros em progresso";
+            meio.innerText = osoutros
+        }
+        
+        //Selecionando todo o código que quero comentar
+        // e Apertando CTRL+";" consigo comenta-lo
     </script>
     
     <div class="em_cima">
             
-            <button id="historia" onclick="clicar()">History</button>
-            <button id="redes">networks</button>
-            <button id="AD">AD</button>
-            <button id="outros">others</button>
-            <!--adicionar butão href="#" role="button" -->
+            <button id="historia" onclick="ClickHistory()">History</button>
+            <button id="redes" onclick="ClickRede()">Networks</button>
+            <button id="AD" onclick="ClickAD()">AD</button>
+            <button id="outros" onclick="ClickOthers()">Others</button>
+            <!-- ... -->
         </div>
         
     <div class="entre_cima_e_meio">
